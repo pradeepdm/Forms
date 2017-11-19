@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_fields"
+        android:actionLayout="@layout/layout_empty"
+        android:title="FIELDS"
+        app:showAsAction="always">
+        <menu>
+            <group android:checkableBehavior="none">
+                <item
+                    android:id="@+id/action_email"
+                    android:title="Email" />
+
+                <item
+                    android:id="@+id/action_dob"
+                    android:title="Date"
+                    android:visible="false" />
+
+                <item
+                    android:id="@+id/action_phone"
+                    android:title="Phone" />
+                <item
+                    android:id="@+id/action_single"
+                    android:title="Line Input" />
+                <item
+                    android:id="@+id/action_date"
+                    android:title="Date Picker" />
+                <item
+                    android:id="@+id/action_time"
+                    android:title="Time Picker" />
+                <item
+                    android:id="@+id/action_multiline"
+                    android:title="Multiline Input" />
+            </group>
+            <group android:checkableBehavior="none">
+                <item
+                    android:id="@+id/action_check"
+                    android:title="Checkbox" />
+                <item
+                    android:id="@+id/action_radios"
+                    android:title="Radio Button" />
+                <item
+                    android:id="@+id/action_toggle"
+                    android:title="Switch" />
+            </group>
+            <group android:checkableBehavior="none">
+                <item
+                    android:id="@+id/action_currency"
+                    android:title="Currency" />
+                <item
+                    android:id="@+id/action_country"
+                    android:title="Country" />
+                <item
+                    android:id="@+id/action_dropdown"
+                    android:title="Drop down" />
+            </group>
+            <group android:checkableBehavior="none">
+                <item
+                    android:id="@+id/action_terms"
+                    android:title="Terms and Conditions" />
+                <item
+                    android:id="@+id/action_signature"
+                    android:title="Signature Pad" />
+            </group>
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/action_save"
+            android:title="Save" />
+        <item
+            android:id="@+id/action_save_as"
+            android:title="Save As" />
+        <item
+            android:id="@+id/action_edit"
+            android:title="Edit Name" />
+    </group>
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/action_tour"
+            android:actionLayout="@layout/layout_empty"
+            android:title="Start Tour" />
+    </group>
+</menu>
